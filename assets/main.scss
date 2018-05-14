@@ -41,6 +41,10 @@ $link-focus-border: $primary !default;
 // 4. Import the rest of Bulma
 @import "~bulma/bulma";
 
+body {
+  color: $black;
+  background-color: $babke-primary;
+}
 .page-enter-active,
 .page-leave-active {
   transition: opacity 0.4s;
