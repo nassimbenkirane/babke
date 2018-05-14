@@ -20,10 +20,11 @@ $family-serif: "Montserrat", serif;
 
 body {
   font-size: 14px;
+  font-weight: bold !important;
 }
 
 .title {
-  color: $black;
+  color: $black !important;
 }
 // 3. Set the derived variables
 
