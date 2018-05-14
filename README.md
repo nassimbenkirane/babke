@@ -1,6 +1,6 @@
-# leilaetnassim
+# babke
 
-> le site de Leïla et Nassim - réalisé pour notre mariage
+> le site de Babké - Kebab gourmet
 
 ## Build Setup
 
