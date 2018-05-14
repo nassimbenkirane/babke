@@ -1,0 +1,86 @@
+// File: assets/main.scss
+// 1. Import the initial variables
+@import "~bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+$babke-primary: #f7b518;
+$black: #000000;
+
+/* Add a serif family*/
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700");
+
+$family-cursive: "Montserrat", serif;
+//$family-cursive: "Rochester", cursive;
+$family-serif: "Montserrat", serif;
+
+.is-cursive {
+  font-family: $family-cursive;
+}
+
+body {
+  font-size: 14px;
+}
+
+.title {
+  color: $black;
+}
+// 3. Set the derived variables
+
+$primary: $babke-primary;
+$primary-invert: $black;
+
+// Use the existing orange as the danger color
+$danger: $orange;
+// Use the new serif family
+$family-primary: $family-serif;
+$link: $black !default;
+$link-invert: $white !default;
+$link-focus-border: $primary !default;
+
+// 4. Import the rest of Bulma
+@import "~bulma/bulma";
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.4s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.section.page {
+  flex-grow: 1;
+}
+
+.button {
+  font-weight: bold;
+}
+
+.embeded_map {
+  margin-top: 15px;
+  width: 100%;
+  max-width: 600px;
+  height: 250px;
+}
+
+.hero.is-primary .navbar-item {
+  margin: 5px 0 10px;
+  border-radius: 4px;
+}
+
+.navbar-menu {
+  justify-content: center;
+}
+
+.logo {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
