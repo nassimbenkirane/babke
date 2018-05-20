@@ -62,8 +62,7 @@ export default {
 
 <style lang="scss" scoped>
 .section.small-section {
-  width: 600px;
-  max-width: 100vw;
+  max-width: 600px;
   margin: auto;
 }
 </style>
