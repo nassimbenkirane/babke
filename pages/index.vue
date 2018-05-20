@@ -5,6 +5,9 @@
       <h2 class="title is-size-5">
         Bienvenue chez Babké, fast-food gourmet et raffiné
       </h2>
+      <h3 class="title is-size-6">
+        53, rue de Bagnolet - 75020 Paris
+      </h3>
     </div>
   </section>
 </template>

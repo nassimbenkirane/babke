@@ -2,9 +2,22 @@
   <section class="section has-text-centered">
     <div class="container is-size-6">
       <h1 class="is-size-3 has-text-weight-bold">
-        Contact
+        Informations / Contact
       </h1>
 
+      <section class="section small-section">
+        <p>
+          Le restaurant est situé au <br/>
+          53 rue de Bagnolet - 75020 Paris
+        </p>
+        <iframe
+          class="embeded_map"
+          frameborder="0" style="border:0"
+          :src="`https://www.google.com/maps/embed/v1/place?key=${
+            google_api_key
+          }&q=53+rue+de+bagnolet,75020+Paris`" allowfullscreen>
+        </iframe>
+      </section>
       <section class="section small-section">
         <p>
           Pour toute question, ou si vous voulez travailler pour Babké,
