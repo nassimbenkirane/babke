@@ -12,26 +12,41 @@
         <p>
           L'ambition est de vous faire passer un moment agréable autour d'un Kebab de fine qualité, en évoquant l'univers retro et coloré des années 90.
         </p>
-        <p>
-          <img src="~assets/gameboy.png" alt="gameboy" class="gameboy-image" />
-          <img src="~assets/boombox.png" alt="boombox" class="boombox-image" />
-        </p>
-        <p>
-          <img src="~assets/tag.png" alt="tag" class="tag-image" />
-        </p>
+        <div class="carousel-container">
+          <carousel :perPage="1" :navigationEnabled="true" :autoplay="false">
+            <slide>
+              <div class="flex-center">
+                <img src="~assets/gameboy.png" alt="gameboy" class="gameboy-image" />
+              </div>
+            </slide>
+            <slide>
+              <div class="flex-center">
+                <img src="~assets/boombox.png" alt="boombox" class="boombox-image" />
+              </div>
+            </slide>
+            <slide>
+              <div class="flex-center">
+                <img src="~assets/tag.png" alt="tag" class="tag-image" />
+              </div>
+            </slide>
+          </carousel>
+        </div>
       </section>
-
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import { Carousel, Slide } from 'vue-carousel'
+
 import config from '../config'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Carousel,
+    Slide
   },
   data: () => ({
     google_api_key: config.google_api_key
@@ -59,16 +74,25 @@ export default {
   max-width: 100vw;
   margin: auto;
 }
+img {
+  margin-top: 50px;
+}
 .gameboy-image{
-  margin-top: 40px;
   height: 200px;
 }
 .boombox-image {
-  position: relative;
-  top: -10px;
   height: 200px;
 }
 .tag-image {
-  margin-top: 50px;
+  height: 275px;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+}
+.carousel-container {
+  display: inline-block;
 }
 </style>
