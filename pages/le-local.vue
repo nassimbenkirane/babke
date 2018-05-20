@@ -12,25 +12,27 @@
         <p>
           L'ambition est de vous faire passer un moment agréable autour d'un Kebab de fine qualité, en évoquant l'univers retro et coloré des années 90.
         </p>
-        <div class="carousel-container">
-          <carousel :perPage="1" :navigationEnabled="true" :autoplay="false">
-            <slide>
-              <div class="flex-center">
-                <img src="~assets/gameboy.png" alt="gameboy" class="gameboy-image" />
-              </div>
-            </slide>
-            <slide>
-              <div class="flex-center">
-                <img src="~assets/boombox.png" alt="boombox" class="boombox-image" />
-              </div>
-            </slide>
-            <slide>
-              <div class="flex-center">
-                <img src="~assets/tag.png" alt="tag" class="tag-image" />
-              </div>
-            </slide>
-          </carousel>
-        </div>
+        <no-ssr>
+          <div class="carousel-container">
+            <carousel :perPage="1" :navigationEnabled="true" :autoplay="false">
+              <slide>
+                <div class="flex-center">
+                  <img src="~assets/gameboy.png" alt="gameboy" class="gameboy-image" />
+                </div>
+              </slide>
+              <slide>
+                <div class="flex-center">
+                  <img src="~assets/boombox.png" alt="boombox" class="boombox-image" />
+                </div>
+              </slide>
+              <slide>
+                <div class="flex-center">
+                  <img src="~assets/tag.png" alt="tag" class="tag-image" />
+                </div>
+              </slide>
+            </carousel>
+          </div>
+        </no-ssr>
       </section>
     </div>
   </section>
@@ -38,10 +40,13 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
+import { Carousel, Slide } from 'vue-carousel'
 
 export default {
   components: {
-    Logo
+    Logo,
+    Carousel,
+    Slide
   },
 
   transition: 'page',
