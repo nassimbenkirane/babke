@@ -7,10 +7,10 @@
 
       <section class="section small-section">
         <p>
-          L'esprit du local est d'inspiration jeux vidéo et éléments vintage des années 90's.
+          L'esprit du local est d'inspiration jeux vidéo et éléments vintage.
         </p>
         <p>
-          L'objectif est de vous faire profiter d'un des meilleurs kebabs de Paris, dans le cadre d'un lieu à la fois résolument moderne et inscrit dans l'ambiance vintage des années 90.
+          L'ambition est de vous faire passer un moment agréable autour d'un Kebab de fine qualité, en évoquant l'univers retro et coloré des années 90.
         </p>
         <p>
           <img src="~assets/gameboy.png" alt="gameboy" class="gameboy-image" />

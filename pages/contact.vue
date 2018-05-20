@@ -9,7 +9,7 @@
         <p>
           Pour toute question, ou si vous voulez travailler pour Babké,
           <br/>
-          me contacter à l'adresse mail qui suit :
+          n'hesitez pas à nous contacter à l'adresse e-mail qui suit :
           <br/>
           <a href="mailto:babkesarl@gmail.com">babkesarl@gmail.com</a>
         </p>

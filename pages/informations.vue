@@ -10,7 +10,7 @@
           Babke est un concept de restauration rapide qui réunit les valeurs les plus essentielles de plaisir et de bien-vivre.
         </p>
         <p>
-          L'objectif est de vous faire profiter d'un des meilleurs kebabs de Paris, dans le cadre d'un lieu à la fois résolument moderne et inscrit dans l'ambiance vintage des années 90.
+          L'objectif est de vous faire profiter d'un des meilleurs kebabs de Paris, dans un lieu à la fois résolument moderne et inscrit dans l'ambiance vintage des années 90.
         </p>
       </section>
 
