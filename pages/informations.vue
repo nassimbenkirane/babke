@@ -20,15 +20,11 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import config from '../config'
 
 export default {
   components: {
     Logo
   },
-  data: () => ({
-    google_api_key: config.google_api_key
-  }),
   transition: 'page',
   head: {
     title: 'BABKÉ Kebab Gourmet | Informations',

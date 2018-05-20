@@ -49,5 +49,6 @@ module.exports = {
   ],
   modules: [
     '@nuxtjs/sitemap'
-  ]
+  ],
+  plugins: [{ src: '~plugins/vue-carousel', ssr: false }]
 }

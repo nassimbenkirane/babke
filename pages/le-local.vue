@@ -38,19 +38,12 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import { Carousel, Slide } from 'vue-carousel'
-
-import config from '../config'
 
 export default {
   components: {
-    Logo,
-    Carousel,
-    Slide
+    Logo
   },
-  data: () => ({
-    google_api_key: config.google_api_key
-  }),
+
   transition: 'page',
   head: {
     title: 'BABKÉ Kebab Gourmet | Le local',
