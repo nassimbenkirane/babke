@@ -27,6 +27,21 @@
               </slide>
               <slide>
                 <div class="flex-center">
+                  <img src="~assets/tag_babke.jpg" alt="tag" class="tag-image" />
+                </div>
+              </slide>
+              <slide>
+                <div class="flex-center">
+                  <img src="~assets/mario.png" alt="tag" class="tag-image" />
+                </div>
+              </slide>
+              <slide>
+                <div class="flex-center">
+                  <img src="~assets/razmoket.jpg" alt="tag" class="tag-image" />
+                </div>
+              </slide>
+              <slide>
+                <div class="flex-center">
                   <img src="~assets/tag.png" alt="tag" class="tag-image" />
                 </div>
               </slide>
