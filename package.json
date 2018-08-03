@@ -18,6 +18,7 @@
     "bulma": "^0.6.0",
     "eslint-plugin-vue": "^4.0.0",
     "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
     "nuxt": "latest",
     "vue-carousel": "^0.7.3"
   },

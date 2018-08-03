@@ -56,8 +56,14 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import { Carousel, Slide } from 'vue-carousel'
+import $ from 'jquery'
 
 export default {
+  mounted () {
+    setTimeout(() => {
+      $('.carousel-container').click()
+    }, 100)
+  },
   components: {
     Logo,
     Carousel,
@@ -89,7 +95,7 @@ export default {
 img {
   margin-top: 50px;
 }
-.gameboy-image{
+.gameboy-image {
   height: 200px;
 }
 .boombox-image {
