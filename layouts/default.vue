@@ -1,7 +1,9 @@
 <template>
   <div class="main-container">
     <Hero/>
-    <nuxt ref="page" class="page"/>
+    <div class="page-container">
+      <nuxt ref="page" class="page"/>
+    </div>
     <MainFooter/>
   </div>
 </template>
@@ -17,3 +19,10 @@ export default {
   }
 }
 </script>
+<style>
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+</style>
