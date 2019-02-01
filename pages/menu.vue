@@ -6,11 +6,11 @@
     <p>Pour les étudiants : -1€ sur toutes les formules  !</p>
     <div class="container is-fluid is-size-6">
       <div class="white-content has-text-left">
-        <h4 class="is-size-5 title">Le Parisien</h4>
+        <h4 class="is-size-5 title title-menu">Le Parisien</h4>
         <div class="columns">
           <div class="column is-three-quarters has-text-left">
             <p class="is-size-8 has-text-weight-normal">
-              Viande à la broche - Salade Iceberg - Tomates - Oignons rouges
+              Viande à la broche • Salade Iceberg • Tomates • Oignons rouges
             </p>
             <p class="is-size-8 has-text-weight-normal">Menu avec Frites maison et boisson</p>
           </div>
@@ -22,11 +22,11 @@
           </div>
         </div>
         <hr/>
-        <h4 class="is-size-5 title">Le Berlinois</h4>
+        <h4 class="is-size-5 title title-menu">Le Berlinois</h4>
         <div class="columns">
           <div class="column is-three-quarters has-text-left">
             <p class="is-size-8 has-text-weight-normal">
-              Viande à la broche - Concombres rapés - Chou rouge - Chou blanc - Oignons rouges
+              Viande à la broche • Concombres rapés • Chou rouge • Chou blanc • Oignons rouges
             </p>
             <p class="is-size-8 has-text-weight-normal">Menu avec Frites maison et boisson</p>
           </div>
@@ -38,11 +38,11 @@
           </div>
         </div>
         <hr/>
-        <h4 class="is-size-5 title">Le Kebab Deluxe</h4>
+        <h4 class="is-size-5 title title-menu">Le Kebab Deluxe</h4>
         <div class="columns">
           <div class="column is-three-quarters has-text-left">
             <p class="is-size-8 has-text-weight-normal">
-              Viande à la broche - Salade Iceberg - Tomates - Oignons rouges - Poivrons rouge/jaune/vert - Champignons - Oignons confits
+              Viande à la broche • Salade Iceberg • Tomates • Oignons rouges • Poivrons rouge/jaune/vert • Champignons • Oignons confits
             </p>
             <p class="is-size-8 has-text-weight-normal">Menu avec Frites maison et boisson</p>
           </div>
@@ -54,11 +54,11 @@
           </div>
         </div>
         <hr/>
-        <h4 class="is-size-5 title">Le Vegétarien</h4>
+        <h4 class="is-size-5 title title-menu">Le Vegétarien</h4>
         <div class="columns">
           <div class="column is-three-quarters has-text-left">
             <p class="is-size-8 has-text-weight-normal">
-              Steak d'aubergine mariné à l'huile d'olive - Sauce moutarde et miel - Salade iceberg - Tomates - Poivrons rouge/jaune/vert - Champignons - Oignons rouges
+              Steak d'aubergine mariné à l'huile d'olive • Sauce moutarde et miel • Salade iceberg • Tomates • Poivrons rouge/jaune/vert • Champignons • Oignons rouges
             </p>
             <p class="is-size-8 has-text-weight-normal">Menu avec Frites maison et boisson</p>
           </div>
@@ -70,7 +70,7 @@
           </div>
         </div>
         <hr/>
-        <h4 class="is-size-5 title">En supplément</h4>
+        <h4 class="is-size-5 title title-menu">En supplément</h4>
         <div class="columns">
           <div class="column is-two-thirds has-text-left">
             <p class="is-size-8 has-text-weight-normal">
@@ -158,6 +158,26 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.title-menu {
+  text-transform: uppercase;
+  border-bottom: 3px solid;
+  display: inline-block;
+  border-top: 3px solid;
+  font-weight: 800;
+}
+hr {
+  display: flex;
+  justify-content: center;
+  height: 4px;
+  background-color: transparent;
+  &:before {
+    content:'';
+    width: 100px;
+    margin: auto;
+    height: 3px;
+    border-bottom: 3px solid black;
+  }
+}
 .section.small-section {
   max-width: 600px;
   margin: auto;
